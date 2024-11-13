@@ -1,0 +1,442 @@
+{
+    "trailers_beluga": [
+        {
+            "name": "beluga_trailer_1"
+        },
+        {
+            "name": "beluga_trailer_2"
+        }
+    ],
+    "trailers_factory": [
+        {
+            "name": "factory_trailer_1"
+        },
+        {
+            "name": "factory_trailer_2"
+        },
+        {
+            "name": "factory_trailer_3"
+        }
+    ],
+    "hangars": [
+        "hangar1"
+    ],
+    "jig_types": {
+        "typeE": {
+            "name": "typeE",
+            "size_empty": 32,
+            "size_loaded": 32
+        },
+        "typeD": {
+            "name": "typeD",
+            "size_empty": 18,
+            "size_loaded": 25
+        },
+        "typeC": {
+            "name": "typeC",
+            "size_empty": 9,
+            "size_loaded": 18
+        },
+        "typeB": {
+            "name": "typeB",
+            "size_empty": 8,
+            "size_loaded": 11
+        },
+        "typeA": {
+            "name": "typeA",
+            "size_empty": 4,
+            "size_loaded": 4
+        }
+    },
+    "racks": [
+        {
+            "name": "rack00",
+            "size": 32,
+            "jigs": [
+                "jig0002",
+                "jig0001"
+            ]
+        },
+        {
+            "name": "rack01",
+            "size": 25,
+            "jigs": []
+        }
+    ],
+    "jigs": {
+        "jig0001": {
+            "name": "jig0001",
+            "type": "typeC",
+            "empty": true
+        },
+        "jig0002": {
+            "name": "jig0002",
+            "type": "typeC",
+            "empty": true
+        },
+        "jig0003": {
+            "name": "jig0003",
+            "type": "typeC",
+            "empty": false
+        },
+        "jig0004": {
+            "name": "jig0004",
+            "type": "typeC",
+            "empty": false
+        },
+        "jig0005": {
+            "name": "jig0005",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0006": {
+            "name": "jig0006",
+            "type": "typeD",
+            "empty": false
+        },
+        "jig0007": {
+            "name": "jig0007",
+            "type": "typeC",
+            "empty": false
+        },
+        "jig0008": {
+            "name": "jig0008",
+            "type": "typeD",
+            "empty": false
+        }
+    },
+    "production_lines": [
+        {
+            "name": "pl0",
+            "schedule": [
+                "jig0004",
+                "jig0006"
+            ]
+        },
+        {
+            "name": "pl1",
+            "schedule": [
+                "jig0003",
+                "jig0005",
+                "jig0007"
+            ]
+        }
+    ],
+    "flights": [
+        {
+            "name": "beluga1",
+            "incoming": [],
+            "outgoing": [
+                "typeC",
+                "typeC"
+            ],
+            "scheduled_arrival": 11.01
+        },
+        {
+            "name": "beluga2",
+            "incoming": [
+                "jig0003",
+                "jig0004"
+            ],
+            "outgoing": [],
+            "scheduled_arrival": 17.83
+        },
+        {
+            "name": "beluga3",
+            "incoming": [
+                "jig0005"
+            ],
+            "outgoing": [
+                "typeC"
+            ],
+            "scheduled_arrival": 20.15
+        },
+        {
+            "name": "beluga4",
+            "incoming": [
+                "jig0006"
+            ],
+            "outgoing": [
+                "typeC"
+            ],
+            "scheduled_arrival": 31.61
+        },
+        {
+            "name": "beluga5",
+            "incoming": [
+                "jig0007"
+            ],
+            "outgoing": [],
+            "scheduled_arrival": 44.18
+        },
+        {
+            "name": "beluga6",
+            "incoming": [],
+            "outgoing": [
+                "typeD"
+            ],
+            "scheduled_arrival": 44.95
+        },
+        {
+            "name": "beluga7",
+            "incoming": [
+                "jig0008"
+            ],
+            "outgoing": [
+                "typeC"
+            ],
+            "scheduled_arrival": 54.58
+        }
+    ],
+    "tt_last": [
+        [
+            null
+        ],
+        [
+            null
+        ],
+        [
+            "beluga1"
+        ],
+        [
+            "beluga1"
+        ],
+        [
+            "beluga2"
+        ],
+        [
+            "beluga2"
+        ],
+        [
+            "beluga2"
+        ],
+        [
+            "beluga3"
+        ],
+        [
+            "beluga3"
+        ],
+        [
+            "beluga4"
+        ],
+        [
+            "beluga4"
+        ],
+        [
+            "beluga5"
+        ],
+        [
+            "beluga5"
+        ],
+        [
+            "beluga6"
+        ],
+        [
+            "beluga6"
+        ],
+        [
+            "beluga5"
+        ],
+        [
+            "beluga5"
+        ],
+        [
+            "beluga4"
+        ],
+        [
+            "beluga6"
+        ],
+        [
+            "beluga1"
+        ],
+        [
+            "beluga2"
+        ],
+        [
+            "beluga3"
+        ],
+        [
+            "beluga7"
+        ],
+        [
+            null
+        ],
+        [
+            "beluga7"
+        ],
+        [
+            "beluga5"
+        ],
+        [
+            "beluga4"
+        ],
+        [
+            "beluga6"
+        ],
+        [
+            "beluga4"
+        ],
+        [
+            "beluga6"
+        ],
+        [
+            "beluga3"
+        ],
+        [
+            "beluga1"
+        ],
+        [
+            "beluga2"
+        ],
+        [
+            "beluga7"
+        ],
+        [
+            "beluga7"
+        ],
+        [
+            "beluga7"
+        ],
+        [
+            null
+        ],
+        [
+            null
+        ],
+        [
+            "beluga4"
+        ],
+        [
+            "beluga5"
+        ],
+        [
+            "beluga6"
+        ],
+        [
+            "beluga1"
+        ],
+        [
+            "beluga3"
+        ],
+        [
+            "beluga2"
+        ],
+        [
+            "beluga1"
+        ],
+        [
+            "beluga3"
+        ],
+        [
+            "beluga7"
+        ],
+        [
+            null
+        ],
+        [
+            null
+        ]
+    ],
+    "tt_next": [
+        "beluga1",
+        "beluga2",
+        "beluga2",
+        "beluga3",
+        "beluga1",
+        "beluga3",
+        "beluga4",
+        "beluga2",
+        "beluga4",
+        "beluga5",
+        "beluga6",
+        "beluga6",
+        "beluga7",
+        "beluga5",
+        "beluga7",
+        "beluga1",
+        "beluga4",
+        "beluga2",
+        "beluga2",
+        "beluga6",
+        "beluga7",
+        "beluga6",
+        "beluga3",
+        "beluga5",
+        "beluga6",
+        "beluga3",
+        "beluga1",
+        "beluga1",
+        "beluga7",
+        "beluga4",
+        "beluga5",
+        "beluga5",
+        "beluga6",
+        "beluga2",
+        "beluga5",
+        "beluga4",
+        "beluga4",
+        "beluga7",
+        "beluga3",
+        "beluga2",
+        "beluga3",
+        "beluga4",
+        "beluga1",
+        "beluga5",
+        "beluga7",
+        "beluga7",
+        "beluga1",
+        "beluga3",
+        "beluga6"
+    ],
+    "tt_prob": [
+        0.9973,
+        0.0022,
+        0.952,
+        0.0476,
+        0.0022,
+        0.9521,
+        0.0454,
+        0.0454,
+        0.9542,
+        0.8808,
+        0.1188,
+        0.8808,
+        0.1188,
+        0.1188,
+        0.8808,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.1667,
+        0.0001,
+        0.1665,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.1667,
+        0.1667,
+        0.1667,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.1667,
+        0.0001,
+        0.0001
+    ]
+}

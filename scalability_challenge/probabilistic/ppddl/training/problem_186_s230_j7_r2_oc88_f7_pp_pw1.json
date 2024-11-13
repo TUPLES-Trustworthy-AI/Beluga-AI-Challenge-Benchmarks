@@ -1,0 +1,433 @@
+{
+    "trailers_beluga": [
+        {
+            "name": "beluga_trailer_1"
+        }
+    ],
+    "trailers_factory": [
+        {
+            "name": "factory_trailer_1"
+        },
+        {
+            "name": "factory_trailer_2"
+        }
+    ],
+    "hangars": [
+        "hangar1",
+        "hangar2",
+        "hangar3"
+    ],
+    "jig_types": {
+        "typeA": {
+            "name": "typeA",
+            "size_empty": 4,
+            "size_loaded": 4
+        },
+        "typeB": {
+            "name": "typeB",
+            "size_empty": 8,
+            "size_loaded": 11
+        },
+        "typeC": {
+            "name": "typeC",
+            "size_empty": 9,
+            "size_loaded": 18
+        },
+        "typeD": {
+            "name": "typeD",
+            "size_empty": 18,
+            "size_loaded": 25
+        },
+        "typeE": {
+            "name": "typeE",
+            "size_empty": 32,
+            "size_loaded": 32
+        }
+    },
+    "racks": [
+        {
+            "name": "rack00",
+            "size": 28,
+            "jigs": [
+                "jig0002"
+            ]
+        },
+        {
+            "name": "rack01",
+            "size": 38,
+            "jigs": [
+                "jig0003",
+                "jig0001"
+            ]
+        }
+    ],
+    "jigs": {
+        "jig0001": {
+            "name": "jig0001",
+            "type": "typeD",
+            "empty": false
+        },
+        "jig0002": {
+            "name": "jig0002",
+            "type": "typeD",
+            "empty": false
+        },
+        "jig0003": {
+            "name": "jig0003",
+            "type": "typeB",
+            "empty": true
+        },
+        "jig0004": {
+            "name": "jig0004",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0005": {
+            "name": "jig0005",
+            "type": "typeD",
+            "empty": false
+        },
+        "jig0006": {
+            "name": "jig0006",
+            "type": "typeC",
+            "empty": false
+        },
+        "jig0007": {
+            "name": "jig0007",
+            "type": "typeC",
+            "empty": false
+        }
+    },
+    "production_lines": [
+        {
+            "name": "pl0",
+            "schedule": [
+                "jig0002"
+            ]
+        },
+        {
+            "name": "pl1",
+            "schedule": [
+                "jig0001",
+                "jig0005"
+            ]
+        },
+        {
+            "name": "pl2",
+            "schedule": [
+                "jig0004"
+            ]
+        }
+    ],
+    "flights": [
+        {
+            "name": "beluga1",
+            "incoming": [],
+            "outgoing": [
+                "typeB"
+            ],
+            "scheduled_arrival": 6.33
+        },
+        {
+            "name": "beluga2",
+            "incoming": [
+                "jig0004"
+            ],
+            "outgoing": [],
+            "scheduled_arrival": 6.9
+        },
+        {
+            "name": "beluga3",
+            "incoming": [],
+            "outgoing": [
+                "typeD",
+                "typeD"
+            ],
+            "scheduled_arrival": 35.0
+        },
+        {
+            "name": "beluga4",
+            "incoming": [
+                "jig0005"
+            ],
+            "outgoing": [],
+            "scheduled_arrival": 67.05
+        },
+        {
+            "name": "beluga5",
+            "incoming": [],
+            "outgoing": [
+                "typeB"
+            ],
+            "scheduled_arrival": 83.41
+        },
+        {
+            "name": "beluga6",
+            "incoming": [
+                "jig0006",
+                "jig0007"
+            ],
+            "outgoing": [],
+            "scheduled_arrival": 103.87
+        },
+        {
+            "name": "beluga7",
+            "incoming": [],
+            "outgoing": [
+                "typeD"
+            ],
+            "scheduled_arrival": 107.41
+        }
+    ],
+    "tt_last": [
+        [
+            null
+        ],
+        [
+            null
+        ],
+        [
+            "beluga1"
+        ],
+        [
+            "beluga1"
+        ],
+        [
+            "beluga2"
+        ],
+        [
+            "beluga2"
+        ],
+        [
+            "beluga3"
+        ],
+        [
+            "beluga4"
+        ],
+        [
+            "beluga5"
+        ],
+        [
+            "beluga5"
+        ],
+        [
+            "beluga6"
+        ],
+        [
+            "beluga7"
+        ],
+        [
+            "beluga5"
+        ],
+        [
+            "beluga5"
+        ],
+        [
+            "beluga4"
+        ],
+        [
+            "beluga6"
+        ],
+        [
+            "beluga6"
+        ],
+        [
+            "beluga1"
+        ],
+        [
+            "beluga2"
+        ],
+        [
+            "beluga3"
+        ],
+        [
+            "beluga2"
+        ],
+        [
+            "beluga7"
+        ],
+        [
+            null
+        ],
+        [
+            "beluga5"
+        ],
+        [
+            "beluga4"
+        ],
+        [
+            "beluga6"
+        ],
+        [
+            "beluga4"
+        ],
+        [
+            "beluga6"
+        ],
+        [
+            "beluga3"
+        ],
+        [
+            "beluga1"
+        ],
+        [
+            "beluga3"
+        ],
+        [
+            "beluga2"
+        ],
+        [
+            "beluga7"
+        ],
+        [
+            "beluga7"
+        ],
+        [
+            "beluga7"
+        ],
+        [
+            null
+        ],
+        [
+            null
+        ],
+        [
+            "beluga4"
+        ],
+        [
+            "beluga5"
+        ],
+        [
+            "beluga4"
+        ],
+        [
+            "beluga6"
+        ],
+        [
+            "beluga1"
+        ],
+        [
+            "beluga3"
+        ],
+        [
+            "beluga2"
+        ],
+        [
+            "beluga1"
+        ],
+        [
+            "beluga3"
+        ],
+        [
+            "beluga7"
+        ],
+        [
+            null
+        ],
+        [
+            null
+        ]
+    ],
+    "tt_next": [
+        "beluga1",
+        "beluga2",
+        "beluga2",
+        "beluga3",
+        "beluga1",
+        "beluga3",
+        "beluga4",
+        "beluga5",
+        "beluga6",
+        "beluga7",
+        "beluga7",
+        "beluga6",
+        "beluga1",
+        "beluga4",
+        "beluga2",
+        "beluga5",
+        "beluga2",
+        "beluga6",
+        "beluga7",
+        "beluga6",
+        "beluga4",
+        "beluga3",
+        "beluga5",
+        "beluga3",
+        "beluga1",
+        "beluga1",
+        "beluga7",
+        "beluga4",
+        "beluga5",
+        "beluga5",
+        "beluga2",
+        "beluga6",
+        "beluga2",
+        "beluga5",
+        "beluga4",
+        "beluga4",
+        "beluga7",
+        "beluga3",
+        "beluga2",
+        "beluga6",
+        "beluga3",
+        "beluga4",
+        "beluga1",
+        "beluga5",
+        "beluga7",
+        "beluga7",
+        "beluga1",
+        "beluga3",
+        "beluga6"
+    ],
+    "tt_prob": [
+        0.8689,
+        0.1306,
+        0.869,
+        0.1306,
+        0.1306,
+        0.869,
+        0.9995,
+        0.9995,
+        0.9701,
+        0.0295,
+        0.9995,
+        0.9835,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0033,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0033,
+        0.0033,
+        0.0033,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0033,
+        0.0001,
+        0.0001
+    ]
+}

@@ -1,0 +1,154 @@
+{
+    "trailers_beluga": [
+        {
+            "name": "beluga_trailer_1"
+        },
+        {
+            "name": "beluga_trailer_2"
+        },
+        {
+            "name": "beluga_trailer_3"
+        }
+    ],
+    "trailers_factory": [
+        {
+            "name": "factory_trailer_1"
+        },
+        {
+            "name": "factory_trailer_2"
+        },
+        {
+            "name": "factory_trailer_3"
+        }
+    ],
+    "hangars": [
+        "hangar1",
+        "hangar2",
+        "hangar3"
+    ],
+    "jig_types": {
+        "typeE": {
+            "name": "typeE",
+            "size_empty": 32,
+            "size_loaded": 32
+        },
+        "typeD": {
+            "name": "typeD",
+            "size_empty": 18,
+            "size_loaded": 25
+        },
+        "typeC": {
+            "name": "typeC",
+            "size_empty": 9,
+            "size_loaded": 18
+        },
+        "typeB": {
+            "name": "typeB",
+            "size_empty": 8,
+            "size_loaded": 11
+        },
+        "typeA": {
+            "name": "typeA",
+            "size_empty": 4,
+            "size_loaded": 4
+        }
+    },
+    "racks": [
+        {
+            "name": "rack00",
+            "size": 35,
+            "jigs": [
+                "jig0001"
+            ]
+        },
+        {
+            "name": "rack01",
+            "size": 23,
+            "jigs": [
+                "jig0002"
+            ]
+        }
+    ],
+    "jigs": {
+        "jig0001": {
+            "name": "jig0001",
+            "type": "typeE",
+            "empty": true
+        },
+        "jig0002": {
+            "name": "jig0002",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0003": {
+            "name": "jig0003",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0004": {
+            "name": "jig0004",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0005": {
+            "name": "jig0005",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0006": {
+            "name": "jig0006",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0007": {
+            "name": "jig0007",
+            "type": "typeC",
+            "empty": false
+        }
+    },
+    "production_lines": [
+        {
+            "name": "pl0",
+            "schedule": [
+                "jig0002",
+                "jig0003",
+                "jig0004",
+                "jig0005",
+                "jig0006",
+                "jig0007"
+            ]
+        }
+    ],
+    "flights": [
+        {
+            "name": "beluga1",
+            "incoming": [
+                "jig0003",
+                "jig0004",
+                "jig0005",
+                "jig0006"
+            ],
+            "outgoing": [
+                "typeE"
+            ]
+        },
+        {
+            "name": "beluga2",
+            "incoming": [
+                "jig0007"
+            ],
+            "outgoing": []
+        },
+        {
+            "name": "beluga3",
+            "incoming": [],
+            "outgoing": [
+                "typeA",
+                "typeA",
+                "typeA",
+                "typeA",
+                "typeA"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,2396 @@
+{
+    "trailers_beluga": [
+        {
+            "name": "beluga_trailer_1"
+        },
+        {
+            "name": "beluga_trailer_2"
+        },
+        {
+            "name": "beluga_trailer_3"
+        }
+    ],
+    "trailers_factory": [
+        {
+            "name": "factory_trailer_1"
+        },
+        {
+            "name": "factory_trailer_2"
+        }
+    ],
+    "hangars": [
+        "hangar1",
+        "hangar2",
+        "hangar3"
+    ],
+    "jig_types": {
+        "typeE": {
+            "name": "typeE",
+            "size_empty": 32,
+            "size_loaded": 32
+        },
+        "typeD": {
+            "name": "typeD",
+            "size_empty": 18,
+            "size_loaded": 25
+        },
+        "typeC": {
+            "name": "typeC",
+            "size_empty": 9,
+            "size_loaded": 18
+        },
+        "typeB": {
+            "name": "typeB",
+            "size_empty": 8,
+            "size_loaded": 11
+        },
+        "typeA": {
+            "name": "typeA",
+            "size_empty": 4,
+            "size_loaded": 4
+        }
+    },
+    "racks": [
+        {
+            "name": "rack00",
+            "size": 38,
+            "jigs": [
+                "jig0009",
+                "jig0035"
+            ]
+        },
+        {
+            "name": "rack01",
+            "size": 21,
+            "jigs": [
+                "jig0010"
+            ]
+        },
+        {
+            "name": "rack02",
+            "size": 27,
+            "jigs": [
+                "jig0016"
+            ]
+        },
+        {
+            "name": "rack03",
+            "size": 32,
+            "jigs": [
+                "jig0006"
+            ]
+        },
+        {
+            "name": "rack04",
+            "size": 29,
+            "jigs": [
+                "jig0001",
+                "jig0018"
+            ]
+        },
+        {
+            "name": "rack05",
+            "size": 21,
+            "jigs": []
+        },
+        {
+            "name": "rack06",
+            "size": 31,
+            "jigs": [
+                "jig0032",
+                "jig0002",
+                "jig0034"
+            ]
+        },
+        {
+            "name": "rack07",
+            "size": 36,
+            "jigs": [
+                "jig0011",
+                "jig0022"
+            ]
+        },
+        {
+            "name": "rack08",
+            "size": 30,
+            "jigs": [
+                "jig0021",
+                "jig0019"
+            ]
+        },
+        {
+            "name": "rack09",
+            "size": 33,
+            "jigs": [
+                "jig0014"
+            ]
+        },
+        {
+            "name": "rack10",
+            "size": 38,
+            "jigs": [
+                "jig0003",
+                "jig0015",
+                "jig0023"
+            ]
+        },
+        {
+            "name": "rack11",
+            "size": 36,
+            "jigs": [
+                "jig0013"
+            ]
+        },
+        {
+            "name": "rack12",
+            "size": 29,
+            "jigs": [
+                "jig0005",
+                "jig0007",
+                "jig0012"
+            ]
+        },
+        {
+            "name": "rack13",
+            "size": 24,
+            "jigs": [
+                "jig0033",
+                "jig0025",
+                "jig0031"
+            ]
+        },
+        {
+            "name": "rack14",
+            "size": 39,
+            "jigs": [
+                "jig0020",
+                "jig0004"
+            ]
+        },
+        {
+            "name": "rack15",
+            "size": 29,
+            "jigs": [
+                "jig0029",
+                "jig0026",
+                "jig0030"
+            ]
+        },
+        {
+            "name": "rack16",
+            "size": 40,
+            "jigs": [
+                "jig0008",
+                "jig0017",
+                "jig0024"
+            ]
+        },
+        {
+            "name": "rack17",
+            "size": 31,
+            "jigs": [
+                "jig0027",
+                "jig0028"
+            ]
+        }
+    ],
+    "jigs": {
+        "jig0001": {
+            "name": "jig0001",
+            "type": "typeB",
+            "empty": true
+        },
+        "jig0002": {
+            "name": "jig0002",
+            "type": "typeC",
+            "empty": true
+        },
+        "jig0003": {
+            "name": "jig0003",
+            "type": "typeC",
+            "empty": true
+        },
+        "jig0004": {
+            "name": "jig0004",
+            "type": "typeD",
+            "empty": true
+        },
+        "jig0005": {
+            "name": "jig0005",
+            "type": "typeA",
+            "empty": true
+        },
+        "jig0006": {
+            "name": "jig0006",
+            "type": "typeE",
+            "empty": false
+        },
+        "jig0007": {
+            "name": "jig0007",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0008": {
+            "name": "jig0008",
+            "type": "typeD",
+            "empty": true
+        },
+        "jig0009": {
+            "name": "jig0009",
+            "type": "typeD",
+            "empty": false
+        },
+        "jig0010": {
+            "name": "jig0010",
+            "type": "typeA",
+            "empty": true
+        },
+        "jig0011": {
+            "name": "jig0011",
+            "type": "typeE",
+            "empty": true
+        },
+        "jig0012": {
+            "name": "jig0012",
+            "type": "typeC",
+            "empty": false
+        },
+        "jig0013": {
+            "name": "jig0013",
+            "type": "typeE",
+            "empty": false
+        },
+        "jig0014": {
+            "name": "jig0014",
+            "type": "typeE",
+            "empty": true
+        },
+        "jig0015": {
+            "name": "jig0015",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0016": {
+            "name": "jig0016",
+            "type": "typeD",
+            "empty": false
+        },
+        "jig0017": {
+            "name": "jig0017",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0018": {
+            "name": "jig0018",
+            "type": "typeC",
+            "empty": false
+        },
+        "jig0019": {
+            "name": "jig0019",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0020": {
+            "name": "jig0020",
+            "type": "typeD",
+            "empty": true
+        },
+        "jig0021": {
+            "name": "jig0021",
+            "type": "typeD",
+            "empty": true
+        },
+        "jig0022": {
+            "name": "jig0022",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0023": {
+            "name": "jig0023",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0024": {
+            "name": "jig0024",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0025": {
+            "name": "jig0025",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0026": {
+            "name": "jig0026",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0027": {
+            "name": "jig0027",
+            "type": "typeC",
+            "empty": false
+        },
+        "jig0028": {
+            "name": "jig0028",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0029": {
+            "name": "jig0029",
+            "type": "typeB",
+            "empty": true
+        },
+        "jig0030": {
+            "name": "jig0030",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0031": {
+            "name": "jig0031",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0032": {
+            "name": "jig0032",
+            "type": "typeA",
+            "empty": true
+        },
+        "jig0033": {
+            "name": "jig0033",
+            "type": "typeC",
+            "empty": true
+        },
+        "jig0034": {
+            "name": "jig0034",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0035": {
+            "name": "jig0035",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0036": {
+            "name": "jig0036",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0037": {
+            "name": "jig0037",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0038": {
+            "name": "jig0038",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0039": {
+            "name": "jig0039",
+            "type": "typeC",
+            "empty": false
+        },
+        "jig0040": {
+            "name": "jig0040",
+            "type": "typeC",
+            "empty": false
+        },
+        "jig0041": {
+            "name": "jig0041",
+            "type": "typeD",
+            "empty": false
+        },
+        "jig0042": {
+            "name": "jig0042",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0043": {
+            "name": "jig0043",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0044": {
+            "name": "jig0044",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0045": {
+            "name": "jig0045",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0046": {
+            "name": "jig0046",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0047": {
+            "name": "jig0047",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0048": {
+            "name": "jig0048",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0049": {
+            "name": "jig0049",
+            "type": "typeC",
+            "empty": false
+        },
+        "jig0050": {
+            "name": "jig0050",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0051": {
+            "name": "jig0051",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0052": {
+            "name": "jig0052",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0053": {
+            "name": "jig0053",
+            "type": "typeC",
+            "empty": false
+        },
+        "jig0054": {
+            "name": "jig0054",
+            "type": "typeC",
+            "empty": false
+        },
+        "jig0055": {
+            "name": "jig0055",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0056": {
+            "name": "jig0056",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0057": {
+            "name": "jig0057",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0058": {
+            "name": "jig0058",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0059": {
+            "name": "jig0059",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0060": {
+            "name": "jig0060",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0061": {
+            "name": "jig0061",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0062": {
+            "name": "jig0062",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0063": {
+            "name": "jig0063",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0064": {
+            "name": "jig0064",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0065": {
+            "name": "jig0065",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0066": {
+            "name": "jig0066",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0067": {
+            "name": "jig0067",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0068": {
+            "name": "jig0068",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0069": {
+            "name": "jig0069",
+            "type": "typeD",
+            "empty": false
+        },
+        "jig0070": {
+            "name": "jig0070",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0071": {
+            "name": "jig0071",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0072": {
+            "name": "jig0072",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0073": {
+            "name": "jig0073",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0074": {
+            "name": "jig0074",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0075": {
+            "name": "jig0075",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0076": {
+            "name": "jig0076",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0077": {
+            "name": "jig0077",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0078": {
+            "name": "jig0078",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0079": {
+            "name": "jig0079",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0080": {
+            "name": "jig0080",
+            "type": "typeC",
+            "empty": false
+        },
+        "jig0081": {
+            "name": "jig0081",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0082": {
+            "name": "jig0082",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0083": {
+            "name": "jig0083",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0084": {
+            "name": "jig0084",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0085": {
+            "name": "jig0085",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0086": {
+            "name": "jig0086",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0087": {
+            "name": "jig0087",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0088": {
+            "name": "jig0088",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0089": {
+            "name": "jig0089",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0090": {
+            "name": "jig0090",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0091": {
+            "name": "jig0091",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0092": {
+            "name": "jig0092",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0093": {
+            "name": "jig0093",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0094": {
+            "name": "jig0094",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0095": {
+            "name": "jig0095",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0096": {
+            "name": "jig0096",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0097": {
+            "name": "jig0097",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0098": {
+            "name": "jig0098",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0099": {
+            "name": "jig0099",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0100": {
+            "name": "jig0100",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0101": {
+            "name": "jig0101",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0102": {
+            "name": "jig0102",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0103": {
+            "name": "jig0103",
+            "type": "typeC",
+            "empty": false
+        },
+        "jig0104": {
+            "name": "jig0104",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0105": {
+            "name": "jig0105",
+            "type": "typeD",
+            "empty": false
+        },
+        "jig0106": {
+            "name": "jig0106",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0107": {
+            "name": "jig0107",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0108": {
+            "name": "jig0108",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0109": {
+            "name": "jig0109",
+            "type": "typeD",
+            "empty": false
+        },
+        "jig0110": {
+            "name": "jig0110",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0111": {
+            "name": "jig0111",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0112": {
+            "name": "jig0112",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0113": {
+            "name": "jig0113",
+            "type": "typeE",
+            "empty": false
+        },
+        "jig0114": {
+            "name": "jig0114",
+            "type": "typeD",
+            "empty": false
+        },
+        "jig0115": {
+            "name": "jig0115",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0116": {
+            "name": "jig0116",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0117": {
+            "name": "jig0117",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0118": {
+            "name": "jig0118",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0119": {
+            "name": "jig0119",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0120": {
+            "name": "jig0120",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0121": {
+            "name": "jig0121",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0122": {
+            "name": "jig0122",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0123": {
+            "name": "jig0123",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0124": {
+            "name": "jig0124",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0125": {
+            "name": "jig0125",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0126": {
+            "name": "jig0126",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0127": {
+            "name": "jig0127",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0128": {
+            "name": "jig0128",
+            "type": "typeC",
+            "empty": false
+        },
+        "jig0129": {
+            "name": "jig0129",
+            "type": "typeC",
+            "empty": false
+        },
+        "jig0130": {
+            "name": "jig0130",
+            "type": "typeC",
+            "empty": false
+        },
+        "jig0131": {
+            "name": "jig0131",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0132": {
+            "name": "jig0132",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0133": {
+            "name": "jig0133",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0134": {
+            "name": "jig0134",
+            "type": "typeC",
+            "empty": false
+        },
+        "jig0135": {
+            "name": "jig0135",
+            "type": "typeC",
+            "empty": false
+        },
+        "jig0136": {
+            "name": "jig0136",
+            "type": "typeC",
+            "empty": false
+        },
+        "jig0137": {
+            "name": "jig0137",
+            "type": "typeC",
+            "empty": false
+        },
+        "jig0138": {
+            "name": "jig0138",
+            "type": "typeC",
+            "empty": false
+        },
+        "jig0139": {
+            "name": "jig0139",
+            "type": "typeC",
+            "empty": false
+        },
+        "jig0140": {
+            "name": "jig0140",
+            "type": "typeD",
+            "empty": false
+        },
+        "jig0141": {
+            "name": "jig0141",
+            "type": "typeC",
+            "empty": false
+        },
+        "jig0142": {
+            "name": "jig0142",
+            "type": "typeC",
+            "empty": false
+        },
+        "jig0143": {
+            "name": "jig0143",
+            "type": "typeD",
+            "empty": false
+        },
+        "jig0144": {
+            "name": "jig0144",
+            "type": "typeC",
+            "empty": false
+        },
+        "jig0145": {
+            "name": "jig0145",
+            "type": "typeC",
+            "empty": false
+        },
+        "jig0146": {
+            "name": "jig0146",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0147": {
+            "name": "jig0147",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0148": {
+            "name": "jig0148",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0149": {
+            "name": "jig0149",
+            "type": "typeE",
+            "empty": false
+        },
+        "jig0150": {
+            "name": "jig0150",
+            "type": "typeD",
+            "empty": false
+        },
+        "jig0151": {
+            "name": "jig0151",
+            "type": "typeC",
+            "empty": false
+        },
+        "jig0152": {
+            "name": "jig0152",
+            "type": "typeC",
+            "empty": false
+        },
+        "jig0153": {
+            "name": "jig0153",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0154": {
+            "name": "jig0154",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0155": {
+            "name": "jig0155",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0156": {
+            "name": "jig0156",
+            "type": "typeD",
+            "empty": false
+        },
+        "jig0157": {
+            "name": "jig0157",
+            "type": "typeD",
+            "empty": false
+        },
+        "jig0158": {
+            "name": "jig0158",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0159": {
+            "name": "jig0159",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0160": {
+            "name": "jig0160",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0161": {
+            "name": "jig0161",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0162": {
+            "name": "jig0162",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0163": {
+            "name": "jig0163",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0164": {
+            "name": "jig0164",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0165": {
+            "name": "jig0165",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0166": {
+            "name": "jig0166",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0167": {
+            "name": "jig0167",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0168": {
+            "name": "jig0168",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0169": {
+            "name": "jig0169",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0170": {
+            "name": "jig0170",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0171": {
+            "name": "jig0171",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0172": {
+            "name": "jig0172",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0173": {
+            "name": "jig0173",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0174": {
+            "name": "jig0174",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0175": {
+            "name": "jig0175",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0176": {
+            "name": "jig0176",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0177": {
+            "name": "jig0177",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0178": {
+            "name": "jig0178",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0179": {
+            "name": "jig0179",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0180": {
+            "name": "jig0180",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0181": {
+            "name": "jig0181",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0182": {
+            "name": "jig0182",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0183": {
+            "name": "jig0183",
+            "type": "typeB",
+            "empty": false
+        },
+        "jig0184": {
+            "name": "jig0184",
+            "type": "typeE",
+            "empty": false
+        },
+        "jig0185": {
+            "name": "jig0185",
+            "type": "typeC",
+            "empty": false
+        },
+        "jig0186": {
+            "name": "jig0186",
+            "type": "typeC",
+            "empty": false
+        },
+        "jig0187": {
+            "name": "jig0187",
+            "type": "typeD",
+            "empty": false
+        },
+        "jig0188": {
+            "name": "jig0188",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0189": {
+            "name": "jig0189",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0190": {
+            "name": "jig0190",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0191": {
+            "name": "jig0191",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0192": {
+            "name": "jig0192",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0193": {
+            "name": "jig0193",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0194": {
+            "name": "jig0194",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0195": {
+            "name": "jig0195",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0196": {
+            "name": "jig0196",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0197": {
+            "name": "jig0197",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0198": {
+            "name": "jig0198",
+            "type": "typeC",
+            "empty": false
+        },
+        "jig0199": {
+            "name": "jig0199",
+            "type": "typeD",
+            "empty": false
+        },
+        "jig0200": {
+            "name": "jig0200",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0201": {
+            "name": "jig0201",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0202": {
+            "name": "jig0202",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0203": {
+            "name": "jig0203",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0204": {
+            "name": "jig0204",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0205": {
+            "name": "jig0205",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0206": {
+            "name": "jig0206",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0207": {
+            "name": "jig0207",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0208": {
+            "name": "jig0208",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0209": {
+            "name": "jig0209",
+            "type": "typeA",
+            "empty": false
+        },
+        "jig0210": {
+            "name": "jig0210",
+            "type": "typeC",
+            "empty": false
+        },
+        "jig0211": {
+            "name": "jig0211",
+            "type": "typeD",
+            "empty": false
+        },
+        "jig0212": {
+            "name": "jig0212",
+            "type": "typeC",
+            "empty": false
+        }
+    },
+    "production_lines": [
+        {
+            "name": "pl0",
+            "schedule": [
+                "jig0038",
+                "jig0019",
+                "jig0028",
+                "jig0006",
+                "jig0037",
+                "jig0027",
+                "jig0039",
+                "jig0051",
+                "jig0042",
+                "jig0057",
+                "jig0035",
+                "jig0061",
+                "jig0052",
+                "jig0076",
+                "jig0066",
+                "jig0082",
+                "jig0069",
+                "jig0092",
+                "jig0078",
+                "jig0085",
+                "jig0093",
+                "jig0080",
+                "jig0071",
+                "jig0070",
+                "jig0094",
+                "jig0083",
+                "jig0088",
+                "jig0110",
+                "jig0112",
+                "jig0114",
+                "jig0101",
+                "jig0127",
+                "jig0123",
+                "jig0118",
+                "jig0115",
+                "jig0124",
+                "jig0119",
+                "jig0136",
+                "jig0134",
+                "jig0155",
+                "jig0156",
+                "jig0147",
+                "jig0132",
+                "jig0142",
+                "jig0148",
+                "jig0176",
+                "jig0141",
+                "jig0144",
+                "jig0196",
+                "jig0168",
+                "jig0200",
+                "jig0153",
+                "jig0184"
+            ]
+        },
+        {
+            "name": "pl1",
+            "schedule": [
+                "jig0013",
+                "jig0015",
+                "jig0007",
+                "jig0017",
+                "jig0047",
+                "jig0023",
+                "jig0050",
+                "jig0043",
+                "jig0040",
+                "jig0016",
+                "jig0048",
+                "jig0059",
+                "jig0054",
+                "jig0064",
+                "jig0053",
+                "jig0074",
+                "jig0022",
+                "jig0067",
+                "jig0081",
+                "jig0089",
+                "jig0065",
+                "jig0077",
+                "jig0091",
+                "jig0098",
+                "jig0095",
+                "jig0090",
+                "jig0100",
+                "jig0103",
+                "jig0104",
+                "jig0107",
+                "jig0111",
+                "jig0113",
+                "jig0125",
+                "jig0116",
+                "jig0121",
+                "jig0120",
+                "jig0138",
+                "jig0137",
+                "jig0135",
+                "jig0143",
+                "jig0152",
+                "jig0149",
+                "jig0122",
+                "jig0164",
+                "jig0163",
+                "jig0161",
+                "jig0157",
+                "jig0169",
+                "jig0182",
+                "jig0166",
+                "jig0171",
+                "jig0185",
+                "jig0170",
+                "jig0162",
+                "jig0177",
+                "jig0146",
+                "jig0180"
+            ]
+        },
+        {
+            "name": "pl2",
+            "schedule": [
+                "jig0034",
+                "jig0024",
+                "jig0012",
+                "jig0036",
+                "jig0031",
+                "jig0018",
+                "jig0025",
+                "jig0026",
+                "jig0046",
+                "jig0030",
+                "jig0049",
+                "jig0063",
+                "jig0009",
+                "jig0056",
+                "jig0045",
+                "jig0041",
+                "jig0055",
+                "jig0058",
+                "jig0068",
+                "jig0075",
+                "jig0044",
+                "jig0079",
+                "jig0097",
+                "jig0062",
+                "jig0087",
+                "jig0086",
+                "jig0072",
+                "jig0060",
+                "jig0084",
+                "jig0105",
+                "jig0073",
+                "jig0106",
+                "jig0096",
+                "jig0099",
+                "jig0108",
+                "jig0102",
+                "jig0117",
+                "jig0129",
+                "jig0126",
+                "jig0139",
+                "jig0109",
+                "jig0128",
+                "jig0133",
+                "jig0130",
+                "jig0154",
+                "jig0145",
+                "jig0151",
+                "jig0131",
+                "jig0159",
+                "jig0165",
+                "jig0150",
+                "jig0174",
+                "jig0140",
+                "jig0179",
+                "jig0178",
+                "jig0175",
+                "jig0187",
+                "jig0158",
+                "jig0204"
+            ]
+        }
+    ],
+    "flights": [
+        {
+            "name": "beluga1",
+            "incoming": [
+                "jig0036",
+                "jig0037",
+                "jig0038"
+            ],
+            "outgoing": [
+                "typeC",
+                "typeC",
+                "typeC"
+            ]
+        },
+        {
+            "name": "beluga2",
+            "incoming": [
+                "jig0039",
+                "jig0040"
+            ],
+            "outgoing": [
+                "typeA",
+                "typeA",
+                "typeA"
+            ]
+        },
+        {
+            "name": "beluga3",
+            "incoming": [],
+            "outgoing": [
+                "typeB",
+                "typeB"
+            ]
+        },
+        {
+            "name": "beluga4",
+            "incoming": [
+                "jig0041"
+            ],
+            "outgoing": [
+                "typeA"
+            ]
+        },
+        {
+            "name": "beluga5",
+            "incoming": [
+                "jig0042",
+                "jig0043",
+                "jig0044",
+                "jig0045",
+                "jig0046",
+                "jig0047",
+                "jig0048"
+            ],
+            "outgoing": [
+                "typeB"
+            ]
+        },
+        {
+            "name": "beluga6",
+            "incoming": [],
+            "outgoing": [
+                "typeB"
+            ]
+        },
+        {
+            "name": "beluga7",
+            "incoming": [
+                "jig0049"
+            ],
+            "outgoing": [
+                "typeB"
+            ]
+        },
+        {
+            "name": "beluga8",
+            "incoming": [],
+            "outgoing": [
+                "typeA"
+            ]
+        },
+        {
+            "name": "beluga9",
+            "incoming": [
+                "jig0050",
+                "jig0051"
+            ],
+            "outgoing": [
+                "typeB"
+            ]
+        },
+        {
+            "name": "beluga10",
+            "incoming": [],
+            "outgoing": [
+                "typeB"
+            ]
+        },
+        {
+            "name": "beluga11",
+            "incoming": [
+                "jig0052"
+            ],
+            "outgoing": [
+                "typeC"
+            ]
+        },
+        {
+            "name": "beluga12",
+            "incoming": [
+                "jig0053"
+            ],
+            "outgoing": [
+                "typeB",
+                "typeB"
+            ]
+        },
+        {
+            "name": "beluga13",
+            "incoming": [
+                "jig0054"
+            ],
+            "outgoing": [
+                "typeB",
+                "typeB",
+                "typeB"
+            ]
+        },
+        {
+            "name": "beluga14",
+            "incoming": [
+                "jig0055",
+                "jig0056",
+                "jig0057"
+            ],
+            "outgoing": [
+                "typeA",
+                "typeA",
+                "typeA"
+            ]
+        },
+        {
+            "name": "beluga15",
+            "incoming": [
+                "jig0058",
+                "jig0059",
+                "jig0060",
+                "jig0061",
+                "jig0062",
+                "jig0063",
+                "jig0064",
+                "jig0065",
+                "jig0066"
+            ],
+            "outgoing": [
+                "typeB"
+            ]
+        },
+        {
+            "name": "beluga16",
+            "incoming": [],
+            "outgoing": [
+                "typeB"
+            ]
+        },
+        {
+            "name": "beluga17",
+            "incoming": [],
+            "outgoing": [
+                "typeA",
+                "typeA"
+            ]
+        },
+        {
+            "name": "beluga18",
+            "incoming": [
+                "jig0067",
+                "jig0068"
+            ],
+            "outgoing": [
+                "typeA",
+                "typeA",
+                "typeA"
+            ]
+        },
+        {
+            "name": "beluga19",
+            "incoming": [],
+            "outgoing": [
+                "typeA",
+                "typeA"
+            ]
+        },
+        {
+            "name": "beluga20",
+            "incoming": [],
+            "outgoing": [
+                "typeB"
+            ]
+        },
+        {
+            "name": "beluga21",
+            "incoming": [
+                "jig0069"
+            ],
+            "outgoing": [
+                "typeE"
+            ]
+        },
+        {
+            "name": "beluga22",
+            "incoming": [
+                "jig0070",
+                "jig0071",
+                "jig0072",
+                "jig0073",
+                "jig0074",
+                "jig0075",
+                "jig0076",
+                "jig0077",
+                "jig0078",
+                "jig0079"
+            ],
+            "outgoing": [
+                "typeA"
+            ]
+        },
+        {
+            "name": "beluga23",
+            "incoming": [],
+            "outgoing": [
+                "typeA"
+            ]
+        },
+        {
+            "name": "beluga24",
+            "incoming": [],
+            "outgoing": [
+                "typeB",
+                "typeB"
+            ]
+        },
+        {
+            "name": "beluga25",
+            "incoming": [
+                "jig0080"
+            ],
+            "outgoing": [
+                "typeB"
+            ]
+        },
+        {
+            "name": "beluga26",
+            "incoming": [],
+            "outgoing": [
+                "typeB"
+            ]
+        },
+        {
+            "name": "beluga27",
+            "incoming": [
+                "jig0081",
+                "jig0082",
+                "jig0083",
+                "jig0084",
+                "jig0085",
+                "jig0086",
+                "jig0087",
+                "jig0088",
+                "jig0089"
+            ],
+            "outgoing": [
+                "typeA",
+                "typeA",
+                "typeA"
+            ]
+        },
+        {
+            "name": "beluga28",
+            "incoming": [],
+            "outgoing": [
+                "typeA",
+                "typeA"
+            ]
+        },
+        {
+            "name": "beluga29",
+            "incoming": [
+                "jig0090",
+                "jig0091",
+                "jig0092",
+                "jig0093"
+            ],
+            "outgoing": [
+                "typeA"
+            ]
+        },
+        {
+            "name": "beluga30",
+            "incoming": [],
+            "outgoing": [
+                "typeA",
+                "typeA",
+                "typeA"
+            ]
+        },
+        {
+            "name": "beluga31",
+            "incoming": [
+                "jig0094",
+                "jig0095",
+                "jig0096",
+                "jig0097"
+            ],
+            "outgoing": [
+                "typeA"
+            ]
+        },
+        {
+            "name": "beluga32",
+            "incoming": [],
+            "outgoing": [
+                "typeA"
+            ]
+        },
+        {
+            "name": "beluga33",
+            "incoming": [
+                "jig0098"
+            ],
+            "outgoing": [
+                "typeA",
+                "typeA",
+                "typeA",
+                "typeA"
+            ]
+        },
+        {
+            "name": "beluga34",
+            "incoming": [],
+            "outgoing": [
+                "typeB",
+                "typeB"
+            ]
+        },
+        {
+            "name": "beluga35",
+            "incoming": [
+                "jig0099",
+                "jig0100"
+            ],
+            "outgoing": [
+                "typeA",
+                "typeA",
+                "typeA",
+                "typeA",
+                "typeA",
+                "typeA"
+            ]
+        },
+        {
+            "name": "beluga36",
+            "incoming": [
+                "jig0101",
+                "jig0102"
+            ],
+            "outgoing": [
+                "typeA"
+            ]
+        },
+        {
+            "name": "beluga37",
+            "incoming": [],
+            "outgoing": [
+                "typeB"
+            ]
+        },
+        {
+            "name": "beluga38",
+            "incoming": [
+                "jig0103"
+            ],
+            "outgoing": [
+                "typeA",
+                "typeA",
+                "typeA",
+                "typeA"
+            ]
+        },
+        {
+            "name": "beluga39",
+            "incoming": [
+                "jig0104"
+            ],
+            "outgoing": [
+                "typeA"
+            ]
+        },
+        {
+            "name": "beluga40",
+            "incoming": [],
+            "outgoing": [
+                "typeA",
+                "typeA",
+                "typeA"
+            ]
+        },
+        {
+            "name": "beluga41",
+            "incoming": [
+                "jig0105"
+            ],
+            "outgoing": [
+                "typeB"
+            ]
+        },
+        {
+            "name": "beluga42",
+            "incoming": [],
+            "outgoing": [
+                "typeD",
+                "typeD"
+            ]
+        },
+        {
+            "name": "beluga43",
+            "incoming": [
+                "jig0106",
+                "jig0107",
+                "jig0108"
+            ],
+            "outgoing": [
+                "typeA"
+            ]
+        },
+        {
+            "name": "beluga44",
+            "incoming": [],
+            "outgoing": [
+                "typeD",
+                "typeD"
+            ]
+        },
+        {
+            "name": "beluga45",
+            "incoming": [
+                "jig0109"
+            ],
+            "outgoing": [
+                "typeE"
+            ]
+        },
+        {
+            "name": "beluga46",
+            "incoming": [],
+            "outgoing": [
+                "typeA",
+                "typeA"
+            ]
+        },
+        {
+            "name": "beluga47",
+            "incoming": [
+                "jig0110",
+                "jig0111",
+                "jig0112"
+            ],
+            "outgoing": [
+                "typeB",
+                "typeB",
+                "typeB"
+            ]
+        },
+        {
+            "name": "beluga48",
+            "incoming": [
+                "jig0113"
+            ],
+            "outgoing": [
+                "typeA"
+            ]
+        },
+        {
+            "name": "beluga49",
+            "incoming": [
+                "jig0114"
+            ],
+            "outgoing": [
+                "typeD",
+                "typeD"
+            ]
+        },
+        {
+            "name": "beluga50",
+            "incoming": [
+                "jig0115",
+                "jig0116"
+            ],
+            "outgoing": [
+                "typeB"
+            ]
+        },
+        {
+            "name": "beluga51",
+            "incoming": [
+                "jig0117"
+            ],
+            "outgoing": [
+                "typeA"
+            ]
+        },
+        {
+            "name": "beluga52",
+            "incoming": [],
+            "outgoing": [
+                "typeB",
+                "typeB"
+            ]
+        },
+        {
+            "name": "beluga53",
+            "incoming": [
+                "jig0118",
+                "jig0119",
+                "jig0120",
+                "jig0121",
+                "jig0122",
+                "jig0123",
+                "jig0124",
+                "jig0125",
+                "jig0126",
+                "jig0127"
+            ],
+            "outgoing": [
+                "typeB"
+            ]
+        },
+        {
+            "name": "beluga54",
+            "incoming": [
+                "jig0128",
+                "jig0129"
+            ],
+            "outgoing": [
+                "typeE"
+            ]
+        },
+        {
+            "name": "beluga55",
+            "incoming": [
+                "jig0130"
+            ],
+            "outgoing": [
+                "typeC",
+                "typeC",
+                "typeC",
+                "typeC"
+            ]
+        },
+        {
+            "name": "beluga56",
+            "incoming": [
+                "jig0131",
+                "jig0132",
+                "jig0133"
+            ],
+            "outgoing": [
+                "typeB"
+            ]
+        },
+        {
+            "name": "beluga57",
+            "incoming": [
+                "jig0134",
+                "jig0135"
+            ],
+            "outgoing": [
+                "typeA"
+            ]
+        },
+        {
+            "name": "beluga58",
+            "incoming": [],
+            "outgoing": [
+                "typeD",
+                "typeD"
+            ]
+        },
+        {
+            "name": "beluga59",
+            "incoming": [
+                "jig0136",
+                "jig0137"
+            ],
+            "outgoing": [
+                "typeD",
+                "typeD"
+            ]
+        },
+        {
+            "name": "beluga60",
+            "incoming": [
+                "jig0138",
+                "jig0139"
+            ],
+            "outgoing": [
+                "typeA",
+                "typeA"
+            ]
+        },
+        {
+            "name": "beluga61",
+            "incoming": [
+                "jig0140"
+            ],
+            "outgoing": [
+                "typeA"
+            ]
+        },
+        {
+            "name": "beluga62",
+            "incoming": [],
+            "outgoing": [
+                "typeA"
+            ]
+        },
+        {
+            "name": "beluga63",
+            "incoming": [],
+            "outgoing": [
+                "typeA",
+                "typeA"
+            ]
+        },
+        {
+            "name": "beluga64",
+            "incoming": [],
+            "outgoing": [
+                "typeB",
+                "typeB",
+                "typeB",
+                "typeB",
+                "typeB"
+            ]
+        },
+        {
+            "name": "beluga65",
+            "incoming": [
+                "jig0141",
+                "jig0142"
+            ],
+            "outgoing": [
+                "typeC",
+                "typeC",
+                "typeC",
+                "typeC"
+            ]
+        },
+        {
+            "name": "beluga66",
+            "incoming": [
+                "jig0143"
+            ],
+            "outgoing": [
+                "typeA"
+            ]
+        },
+        {
+            "name": "beluga67",
+            "incoming": [
+                "jig0144",
+                "jig0145"
+            ],
+            "outgoing": [
+                "typeE"
+            ]
+        },
+        {
+            "name": "beluga68",
+            "incoming": [
+                "jig0146",
+                "jig0147",
+                "jig0148"
+            ],
+            "outgoing": [
+                "typeD",
+                "typeD"
+            ]
+        },
+        {
+            "name": "beluga69",
+            "incoming": [
+                "jig0149"
+            ],
+            "outgoing": [
+                "typeE"
+            ]
+        },
+        {
+            "name": "beluga70",
+            "incoming": [
+                "jig0150"
+            ],
+            "outgoing": [
+                "typeA"
+            ]
+        },
+        {
+            "name": "beluga71",
+            "incoming": [
+                "jig0151",
+                "jig0152"
+            ],
+            "outgoing": [
+                "typeB"
+            ]
+        },
+        {
+            "name": "beluga72",
+            "incoming": [
+                "jig0153",
+                "jig0154",
+                "jig0155"
+            ],
+            "outgoing": [
+                "typeC",
+                "typeC",
+                "typeC",
+                "typeC"
+            ]
+        },
+        {
+            "name": "beluga73",
+            "incoming": [
+                "jig0156"
+            ],
+            "outgoing": [
+                "typeC",
+                "typeC",
+                "typeC",
+                "typeC"
+            ]
+        },
+        {
+            "name": "beluga74",
+            "incoming": [
+                "jig0157"
+            ],
+            "outgoing": [
+                "typeB"
+            ]
+        },
+        {
+            "name": "beluga75",
+            "incoming": [
+                "jig0158",
+                "jig0159",
+                "jig0160",
+                "jig0161",
+                "jig0162",
+                "jig0163",
+                "jig0164",
+                "jig0165",
+                "jig0166",
+                "jig0167"
+            ],
+            "outgoing": [
+                "typeB"
+            ]
+        },
+        {
+            "name": "beluga76",
+            "incoming": [
+                "jig0168",
+                "jig0169",
+                "jig0170"
+            ],
+            "outgoing": [
+                "typeE"
+            ]
+        },
+        {
+            "name": "beluga77",
+            "incoming": [
+                "jig0171",
+                "jig0172",
+                "jig0173",
+                "jig0174",
+                "jig0175",
+                "jig0176",
+                "jig0177",
+                "jig0178",
+                "jig0179",
+                "jig0180"
+            ],
+            "outgoing": [
+                "typeD"
+            ]
+        },
+        {
+            "name": "beluga78",
+            "incoming": [
+                "jig0181",
+                "jig0182",
+                "jig0183"
+            ],
+            "outgoing": [
+                "typeB"
+            ]
+        },
+        {
+            "name": "beluga79",
+            "incoming": [
+                "jig0184"
+            ],
+            "outgoing": [
+                "typeA",
+                "typeA",
+                "typeA",
+                "typeA"
+            ]
+        },
+        {
+            "name": "beluga80",
+            "incoming": [
+                "jig0185",
+                "jig0186"
+            ],
+            "outgoing": [
+                "typeA"
+            ]
+        },
+        {
+            "name": "beluga81",
+            "incoming": [
+                "jig0187"
+            ],
+            "outgoing": [
+                "typeD"
+            ]
+        },
+        {
+            "name": "beluga82",
+            "incoming": [
+                "jig0188",
+                "jig0189",
+                "jig0190",
+                "jig0191",
+                "jig0192",
+                "jig0193",
+                "jig0194",
+                "jig0195",
+                "jig0196",
+                "jig0197"
+            ],
+            "outgoing": [
+                "typeA",
+                "typeA"
+            ]
+        },
+        {
+            "name": "beluga83",
+            "incoming": [
+                "jig0198"
+            ],
+            "outgoing": [
+                "typeB",
+                "typeB",
+                "typeB",
+                "typeB",
+                "typeB"
+            ]
+        },
+        {
+            "name": "beluga84",
+            "incoming": [
+                "jig0199"
+            ],
+            "outgoing": [
+                "typeA",
+                "typeA",
+                "typeA"
+            ]
+        },
+        {
+            "name": "beluga85",
+            "incoming": [
+                "jig0200",
+                "jig0201",
+                "jig0202",
+                "jig0203",
+                "jig0204",
+                "jig0205",
+                "jig0206",
+                "jig0207",
+                "jig0208",
+                "jig0209"
+            ],
+            "outgoing": [
+                "typeD"
+            ]
+        },
+        {
+            "name": "beluga86",
+            "incoming": [
+                "jig0210"
+            ],
+            "outgoing": [
+                "typeD"
+            ]
+        },
+        {
+            "name": "beluga87",
+            "incoming": [
+                "jig0211"
+            ],
+            "outgoing": [
+                "typeB"
+            ]
+        },
+        {
+            "name": "beluga88",
+            "incoming": [],
+            "outgoing": [
+                "typeA",
+                "typeA",
+                "typeA",
+                "typeA"
+            ]
+        },
+        {
+            "name": "beluga89",
+            "incoming": [
+                "jig0212"
+            ],
+            "outgoing": [
+                "typeA",
+                "typeA",
+                "typeA"
+            ]
+        },
+        {
+            "name": "beluga90",
+            "incoming": [],
+            "outgoing": [
+                "typeB",
+                "typeB",
+                "typeB"
+            ]
+        }
+    ]
+}

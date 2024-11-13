@@ -1,0 +1,1090 @@
+{
+    "trailers_beluga": [
+        {
+            "name": "beluga_trailer_1"
+        },
+        {
+            "name": "beluga_trailer_2"
+        }
+    ],
+    "trailers_factory": [
+        {
+            "name": "factory_trailer_1"
+        },
+        {
+            "name": "factory_trailer_2"
+        }
+    ],
+    "hangars": [
+        "hangar1",
+        "hangar2"
+    ],
+    "jig_types": {
+        "typeE": {
+            "name": "typeE",
+            "size_empty": 32,
+            "size_loaded": 32
+        },
+        "typeD": {
+            "name": "typeD",
+            "size_empty": 18,
+            "size_loaded": 25
+        },
+        "typeC": {
+            "name": "typeC",
+            "size_empty": 9,
+            "size_loaded": 18
+        },
+        "typeB": {
+            "name": "typeB",
+            "size_empty": 8,
+            "size_loaded": 11
+        },
+        "typeA": {
+            "name": "typeA",
+            "size_empty": 4,
+            "size_loaded": 4
+        }
+    },
+    "racks": [
+        {
+            "name": "rack00",
+            "size": 31,
+            "jigs": [
+                "jig0002"
+            ]
+        },
+        {
+            "name": "rack01",
+            "size": 34,
+            "jigs": [
+                "jig0001"
+            ]
+        }
+    ],
+    "jigs": {
+        "jig0001": {
+            "name": "jig0001",
+            "type": "typeE",
+            "empty": true
+        },
+        "jig0002": {
+            "name": "jig0002",
+            "type": "typeD",
+            "empty": false
+        },
+        "jig0003": {
+            "name": "jig0003",
+            "type": "typeE",
+            "empty": false
+        },
+        "jig0004": {
+            "name": "jig0004",
+            "type": "typeD",
+            "empty": false
+        },
+        "jig0005": {
+            "name": "jig0005",
+            "type": "typeE",
+            "empty": false
+        },
+        "jig0006": {
+            "name": "jig0006",
+            "type": "typeE",
+            "empty": false
+        },
+        "jig0007": {
+            "name": "jig0007",
+            "type": "typeC",
+            "empty": false
+        },
+        "jig0008": {
+            "name": "jig0008",
+            "type": "typeD",
+            "empty": false
+        },
+        "jig0009": {
+            "name": "jig0009",
+            "type": "typeC",
+            "empty": false
+        }
+    },
+    "production_lines": [
+        {
+            "name": "pl0",
+            "schedule": [
+                "jig0003",
+                "jig0004",
+                "jig0006",
+                "jig0008"
+            ]
+        },
+        {
+            "name": "pl1",
+            "schedule": [
+                "jig0002",
+                "jig0005",
+                "jig0007"
+            ]
+        }
+    ],
+    "flights": [
+        {
+            "name": "beluga1",
+            "incoming": [],
+            "outgoing": [
+                "typeE"
+            ],
+            "scheduled_arrival": 7.18
+        },
+        {
+            "name": "beluga2",
+            "incoming": [
+                "jig0003"
+            ],
+            "outgoing": [],
+            "scheduled_arrival": 7.8100000000000005
+        },
+        {
+            "name": "beluga3",
+            "incoming": [],
+            "outgoing": [
+                "typeE"
+            ],
+            "scheduled_arrival": 19.48
+        },
+        {
+            "name": "beluga4",
+            "incoming": [
+                "jig0004"
+            ],
+            "outgoing": [],
+            "scheduled_arrival": 31.39
+        },
+        {
+            "name": "beluga5",
+            "incoming": [],
+            "outgoing": [
+                "typeD"
+            ],
+            "scheduled_arrival": 33.72
+        },
+        {
+            "name": "beluga6",
+            "incoming": [
+                "jig0005"
+            ],
+            "outgoing": [],
+            "scheduled_arrival": 54.29
+        },
+        {
+            "name": "beluga7",
+            "incoming": [],
+            "outgoing": [
+                "typeE"
+            ],
+            "scheduled_arrival": 66.92
+        },
+        {
+            "name": "beluga8",
+            "incoming": [
+                "jig0006"
+            ],
+            "outgoing": [
+                "typeD"
+            ],
+            "scheduled_arrival": 67.02
+        },
+        {
+            "name": "beluga9",
+            "incoming": [
+                "jig0007"
+            ],
+            "outgoing": [],
+            "scheduled_arrival": 79.15
+        },
+        {
+            "name": "beluga10",
+            "incoming": [],
+            "outgoing": [
+                "typeE"
+            ],
+            "scheduled_arrival": 79.91
+        },
+        {
+            "name": "beluga11",
+            "incoming": [
+                "jig0008"
+            ],
+            "outgoing": [],
+            "scheduled_arrival": 79.94
+        },
+        {
+            "name": "beluga12",
+            "incoming": [],
+            "outgoing": [
+                "typeC"
+            ],
+            "scheduled_arrival": 102.05
+        },
+        {
+            "name": "beluga13",
+            "incoming": [
+                "jig0009"
+            ],
+            "outgoing": [],
+            "scheduled_arrival": 175.45
+        }
+    ],
+    "tt_last": [
+        [
+            null
+        ],
+        [
+            null
+        ],
+        [
+            "beluga1"
+        ],
+        [
+            "beluga1"
+        ],
+        [
+            "beluga2"
+        ],
+        [
+            "beluga2"
+        ],
+        [
+            "beluga3"
+        ],
+        [
+            "beluga3"
+        ],
+        [
+            "beluga4"
+        ],
+        [
+            "beluga4"
+        ],
+        [
+            "beluga5"
+        ],
+        [
+            "beluga5"
+        ],
+        [
+            "beluga6"
+        ],
+        [
+            "beluga6"
+        ],
+        [
+            "beluga7"
+        ],
+        [
+            "beluga7"
+        ],
+        [
+            "beluga7"
+        ],
+        [
+            "beluga7"
+        ],
+        [
+            "beluga8"
+        ],
+        [
+            "beluga8"
+        ],
+        [
+            "beluga8"
+        ],
+        [
+            "beluga8"
+        ],
+        [
+            "beluga9"
+        ],
+        [
+            "beluga9"
+        ],
+        [
+            "beluga9"
+        ],
+        [
+            "beluga10"
+        ],
+        [
+            "beluga10"
+        ],
+        [
+            "beluga10"
+        ],
+        [
+            "beluga11"
+        ],
+        [
+            "beluga11"
+        ],
+        [
+            "beluga11"
+        ],
+        [
+            "beluga12"
+        ],
+        [
+            "beluga13"
+        ],
+        [
+            "beluga5"
+        ],
+        [
+            "beluga5"
+        ],
+        [
+            "beluga6"
+        ],
+        [
+            "beluga9"
+        ],
+        [
+            "beluga6"
+        ],
+        [
+            "beluga11"
+        ],
+        [
+            "beluga1"
+        ],
+        [
+            "beluga12"
+        ],
+        [
+            "beluga3"
+        ],
+        [
+            "beluga7"
+        ],
+        [
+            "beluga8"
+        ],
+        [
+            "beluga7"
+        ],
+        [
+            null
+        ],
+        [
+            "beluga5"
+        ],
+        [
+            "beluga4"
+        ],
+        [
+            "beluga6"
+        ],
+        [
+            "beluga9"
+        ],
+        [
+            "beluga10"
+        ],
+        [
+            "beluga6"
+        ],
+        [
+            "beluga1"
+        ],
+        [
+            "beluga12"
+        ],
+        [
+            "beluga2"
+        ],
+        [
+            "beluga7"
+        ],
+        [
+            "beluga8"
+        ],
+        [
+            "beluga8"
+        ],
+        [
+            null
+        ],
+        [
+            "beluga4"
+        ],
+        [
+            "beluga9"
+        ],
+        [
+            "beluga10"
+        ],
+        [
+            "beluga12"
+        ],
+        [
+            "beluga10"
+        ],
+        [
+            "beluga1"
+        ],
+        [
+            "beluga12"
+        ],
+        [
+            "beluga2"
+        ],
+        [
+            "beluga8"
+        ],
+        [
+            null
+        ],
+        [
+            null
+        ],
+        [
+            "beluga4"
+        ],
+        [
+            "beluga4"
+        ],
+        [
+            "beluga10"
+        ],
+        [
+            "beluga12"
+        ],
+        [
+            "beluga2"
+        ],
+        [
+            "beluga2"
+        ],
+        [
+            null
+        ],
+        [
+            "beluga13"
+        ],
+        [
+            "beluga6"
+        ],
+        [
+            "beluga4"
+        ],
+        [
+            "beluga6"
+        ],
+        [
+            "beluga5"
+        ],
+        [
+            "beluga10"
+        ],
+        [
+            "beluga12"
+        ],
+        [
+            "beluga2"
+        ],
+        [
+            "beluga7"
+        ],
+        [
+            "beluga8"
+        ],
+        [
+            "beluga13"
+        ],
+        [
+            "beluga6"
+        ],
+        [
+            "beluga10"
+        ],
+        [
+            "beluga6"
+        ],
+        [
+            "beluga11"
+        ],
+        [
+            "beluga2"
+        ],
+        [
+            "beluga3"
+        ],
+        [
+            "beluga8"
+        ],
+        [
+            "beluga8"
+        ],
+        [
+            "beluga13"
+        ],
+        [
+            "beluga13"
+        ],
+        [
+            "beluga4"
+        ],
+        [
+            "beluga6"
+        ],
+        [
+            "beluga5"
+        ],
+        [
+            "beluga10"
+        ],
+        [
+            "beluga9"
+        ],
+        [
+            "beluga11"
+        ],
+        [
+            "beluga11"
+        ],
+        [
+            "beluga2"
+        ],
+        [
+            "beluga1"
+        ],
+        [
+            "beluga3"
+        ],
+        [
+            "beluga8"
+        ],
+        [
+            "beluga13"
+        ],
+        [
+            "beluga4"
+        ],
+        [
+            "beluga4"
+        ],
+        [
+            "beluga5"
+        ],
+        [
+            "beluga11"
+        ],
+        [
+            "beluga1"
+        ],
+        [
+            "beluga3"
+        ],
+        [
+            "beluga2"
+        ],
+        [
+            "beluga3"
+        ],
+        [
+            null
+        ],
+        [
+            "beluga13"
+        ],
+        [
+            "beluga4"
+        ],
+        [
+            "beluga5"
+        ],
+        [
+            "beluga4"
+        ],
+        [
+            "beluga5"
+        ],
+        [
+            "beluga9"
+        ],
+        [
+            "beluga11"
+        ],
+        [
+            "beluga2"
+        ],
+        [
+            "beluga1"
+        ],
+        [
+            "beluga12"
+        ],
+        [
+            "beluga3"
+        ],
+        [
+            "beluga7"
+        ],
+        [
+            "beluga7"
+        ],
+        [
+            null
+        ],
+        [
+            "beluga13"
+        ],
+        [
+            "beluga5"
+        ],
+        [
+            "beluga9"
+        ],
+        [
+            "beluga11"
+        ],
+        [
+            "beluga9"
+        ],
+        [
+            "beluga2"
+        ],
+        [
+            "beluga1"
+        ],
+        [
+            "beluga3"
+        ],
+        [
+            "beluga12"
+        ],
+        [
+            "beluga7"
+        ],
+        [
+            "beluga13"
+        ],
+        [
+            null
+        ],
+        [
+            "beluga13"
+        ],
+        [
+            "beluga9"
+        ],
+        [
+            "beluga11"
+        ],
+        [
+            "beluga10"
+        ],
+        [
+            "beluga12"
+        ],
+        [
+            "beluga1"
+        ],
+        [
+            "beluga3"
+        ],
+        [
+            "beluga12"
+        ],
+        [
+            null
+        ],
+        [
+            "beluga13"
+        ],
+        [
+            null
+        ],
+        [
+            "beluga13"
+        ],
+        [
+            "beluga5"
+        ],
+        [
+            "beluga6"
+        ],
+        [
+            "beluga9"
+        ],
+        [
+            "beluga11"
+        ],
+        [
+            "beluga10"
+        ],
+        [
+            "beluga1"
+        ],
+        [
+            "beluga3"
+        ],
+        [
+            "beluga12"
+        ],
+        [
+            "beluga1"
+        ],
+        [
+            "beluga3"
+        ],
+        [
+            "beluga7"
+        ],
+        [
+            null
+        ]
+    ],
+    "tt_next": [
+        "beluga1",
+        "beluga2",
+        "beluga2",
+        "beluga3",
+        "beluga1",
+        "beluga3",
+        "beluga4",
+        "beluga5",
+        "beluga5",
+        "beluga6",
+        "beluga4",
+        "beluga6",
+        "beluga7",
+        "beluga8",
+        "beluga8",
+        "beluga9",
+        "beluga10",
+        "beluga11",
+        "beluga7",
+        "beluga9",
+        "beluga10",
+        "beluga11",
+        "beluga10",
+        "beluga11",
+        "beluga12",
+        "beluga9",
+        "beluga11",
+        "beluga12",
+        "beluga9",
+        "beluga10",
+        "beluga12",
+        "beluga13",
+        "beluga5",
+        "beluga1",
+        "beluga10",
+        "beluga2",
+        "beluga1",
+        "beluga11",
+        "beluga7",
+        "beluga6",
+        "beluga6",
+        "beluga12",
+        "beluga3",
+        "beluga2",
+        "beluga12",
+        "beluga8",
+        "beluga3",
+        "beluga7",
+        "beluga4",
+        "beluga3",
+        "beluga2",
+        "beluga13",
+        "beluga8",
+        "beluga8",
+        "beluga9",
+        "beluga5",
+        "beluga4",
+        "beluga13",
+        "beluga10",
+        "beluga9",
+        "beluga5",
+        "beluga4",
+        "beluga1",
+        "beluga13",
+        "beluga10",
+        "beluga10",
+        "beluga11",
+        "beluga6",
+        "beluga3",
+        "beluga12",
+        "beluga2",
+        "beluga11",
+        "beluga6",
+        "beluga3",
+        "beluga4",
+        "beluga13",
+        "beluga5",
+        "beluga7",
+        "beluga1",
+        "beluga13",
+        "beluga10",
+        "beluga12",
+        "beluga8",
+        "beluga5",
+        "beluga6",
+        "beluga2",
+        "beluga1",
+        "beluga9",
+        "beluga3",
+        "beluga1",
+        "beluga12",
+        "beluga2",
+        "beluga8",
+        "beluga7",
+        "beluga3",
+        "beluga12",
+        "beluga2",
+        "beluga11",
+        "beluga8",
+        "beluga5",
+        "beluga7",
+        "beluga3",
+        "beluga7",
+        "beluga4",
+        "beluga13",
+        "beluga10",
+        "beluga12",
+        "beluga9",
+        "beluga5",
+        "beluga4",
+        "beluga1",
+        "beluga10",
+        "beluga9",
+        "beluga6",
+        "beluga5",
+        "beluga2",
+        "beluga12",
+        "beluga11",
+        "beluga7",
+        "beluga6",
+        "beluga3",
+        "beluga2",
+        "beluga12",
+        "beluga11",
+        "beluga2",
+        "beluga8",
+        "beluga5",
+        "beluga7",
+        "beluga7",
+        "beluga13",
+        "beluga4",
+        "beluga13",
+        "beluga9",
+        "beluga8",
+        "beluga13",
+        "beluga4",
+        "beluga1",
+        "beluga13",
+        "beluga7",
+        "beluga9",
+        "beluga6",
+        "beluga9",
+        "beluga6",
+        "beluga1",
+        "beluga11",
+        "beluga10",
+        "beluga6",
+        "beluga3",
+        "beluga5",
+        "beluga2",
+        "beluga11",
+        "beluga8",
+        "beluga11",
+        "beluga4",
+        "beluga3",
+        "beluga13",
+        "beluga12",
+        "beluga8",
+        "beluga9",
+        "beluga8",
+        "beluga5",
+        "beluga7",
+        "beluga4",
+        "beluga1",
+        "beluga4",
+        "beluga13",
+        "beluga10",
+        "beluga1",
+        "beluga6"
+    ],
+    "tt_prob": [
+        0.8691,
+        0.1298,
+        0.8692,
+        0.1298,
+        0.1298,
+        0.8692,
+        0.9538,
+        0.0452,
+        0.9538,
+        0.0452,
+        0.0452,
+        0.9538,
+        0.6227,
+        0.3763,
+        0.6228,
+        0.3241,
+        0.0304,
+        0.0219,
+        0.3764,
+        0.5439,
+        0.0489,
+        0.0301,
+        0.555,
+        0.3416,
+        0.1025,
+        0.0531,
+        0.6056,
+        0.3405,
+        0.0781,
+        0.3649,
+        0.5561,
+        0.9989,
+        0.0833,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0833,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0833,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0833,
+        0.0833,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0833,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0833,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0833,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0833,
+        0.0001,
+        0.0833,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0833,
+        0.0001,
+        0.0837,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001,
+        0.0001
+    ]
+}
