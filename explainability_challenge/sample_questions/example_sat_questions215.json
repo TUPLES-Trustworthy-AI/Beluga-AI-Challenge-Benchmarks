@@ -1,0 +1,229 @@
+{
+    "instance": {
+        "trailers_beluga": [
+            {
+                "name": "beluga_trailer_1"
+            },
+            {
+                "name": "beluga_trailer_2"
+            }
+        ],
+        "trailers_factory": [
+            {
+                "name": "factory_trailer_1"
+            },
+            {
+                "name": "factory_trailer_2"
+            },
+            {
+                "name": "factory_trailer_3"
+            }
+        ],
+        "hangars": [
+            "hangar1",
+            "hangar2"
+        ],
+        "jig_types": {
+            "typeA": {
+                "name": "typeA",
+                "size_empty": 4,
+                "size_loaded": 4
+            },
+            "typeB": {
+                "name": "typeB",
+                "size_empty": 8,
+                "size_loaded": 11
+            },
+            "typeC": {
+                "name": "typeC",
+                "size_empty": 9,
+                "size_loaded": 18
+            },
+            "typeD": {
+                "name": "typeD",
+                "size_empty": 18,
+                "size_loaded": 25
+            },
+            "typeE": {
+                "name": "typeE",
+                "size_empty": 32,
+                "size_loaded": 32
+            }
+        },
+        "racks": [
+            {
+                "name": "rack00",
+                "size": 31,
+                "jigs": []
+            },
+            {
+                "name": "rack01",
+                "size": 38,
+                "jigs": [
+                    "jig0001"
+                ]
+            }
+        ],
+        "jigs": {
+            "jig0001": {
+                "name": "jig0001",
+                "type": "typeD",
+                "empty": false
+            },
+            "jig0002": {
+                "name": "jig0002",
+                "type": "typeD",
+                "empty": false
+            },
+            "jig0003": {
+                "name": "jig0003",
+                "type": "typeD",
+                "empty": false
+            }
+        },
+        "production_lines": [
+            {
+                "name": "pl0",
+                "schedule": [
+                    "jig0001",
+                    "jig0002"
+                ]
+            }
+        ],
+        "flights": [
+            {
+                "name": "beluga1",
+                "incoming": [
+                    "jig0002"
+                ],
+                "outgoing": []
+            },
+            {
+                "name": "beluga2",
+                "incoming": [],
+                "outgoing": [
+                    "typeD",
+                    "typeD"
+                ]
+            },
+            {
+                "name": "beluga3",
+                "incoming": [
+                    "jig0003"
+                ],
+                "outgoing": []
+            }
+        ]
+    },
+    "plan": [
+        {
+            "name": "unload_beluga",
+            "j": "jig0002",
+            "b": "beluga1",
+            "t": "beluga_trailer_1"
+        },
+        {
+            "name": "switch_to_next_beluga"
+        },
+        {
+            "name": "put_down_rack",
+            "j": "jig0002",
+            "t": "beluga_trailer_1",
+            "r": "rack00",
+            "s": "bside"
+        },
+        {
+            "name": "pick_up_rack",
+            "j": "jig0002",
+            "t": "factory_trailer_1",
+            "r": "rack00",
+            "s": "fside"
+        },
+        {
+            "name": "pick_up_rack",
+            "j": "jig0001",
+            "t": "factory_trailer_3",
+            "r": "rack01",
+            "s": "fside"
+        },
+        {
+            "name": "deliver_to_hangar",
+            "j": "jig0001",
+            "h": "hangar1",
+            "t": "factory_trailer_3",
+            "pl": "pl0"
+        },
+        {
+            "name": "deliver_to_hangar",
+            "j": "jig0002",
+            "h": "hangar2",
+            "t": "factory_trailer_1",
+            "pl": "pl0"
+        },
+        {
+            "name": "get_from_hangar",
+            "j": "jig0001",
+            "h": "hangar1",
+            "t": "factory_trailer_1"
+        },
+        {
+            "name": "put_down_rack",
+            "j": "jig0001",
+            "t": "factory_trailer_1",
+            "r": "rack00",
+            "s": "fside"
+        },
+        {
+            "name": "pick_up_rack",
+            "j": "jig0001",
+            "t": "beluga_trailer_1",
+            "r": "rack00",
+            "s": "bside"
+        },
+        {
+            "name": "load_beluga",
+            "j": "jig0001",
+            "b": "beluga2",
+            "t": "beluga_trailer_1"
+        },
+        {
+            "name": "get_from_hangar",
+            "j": "jig0002",
+            "h": "hangar2",
+            "t": "factory_trailer_1"
+        },
+        {
+            "name": "put_down_rack",
+            "j": "jig0002",
+            "t": "factory_trailer_1",
+            "r": "rack00",
+            "s": "fside"
+        },
+        {
+            "name": "pick_up_rack",
+            "j": "jig0002",
+            "t": "beluga_trailer_2",
+            "r": "rack00",
+            "s": "bside"
+        },
+        {
+            "name": "load_beluga",
+            "j": "jig0002",
+            "b": "beluga2",
+            "t": "beluga_trailer_2"
+        },
+        {
+            "name": "switch_to_next_beluga"
+        },
+        {
+            "name": "unload_beluga",
+            "j": "jig0003",
+            "b": "beluga3",
+            "t": "beluga_trailer_1"
+        }
+    ],
+    "question": {
+        "type": "KEEP_EMPTY",
+        "question_text": "How can I keep one rack empty all the time?"
+    }
+}
